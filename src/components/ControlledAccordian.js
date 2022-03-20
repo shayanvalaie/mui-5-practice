@@ -13,7 +13,9 @@ export default function ControlledAccordion() {
     };
 
     return (
-        <div>
+        <div style={{
+            marginBottom: '100px'
+        }}>
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}

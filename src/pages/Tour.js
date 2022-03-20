@@ -24,7 +24,7 @@ const Tour = () => {
             <Typography variant="h6" component="h4" marginTop={3}>
                 About this ticket
             </Typography>
-            <Box sx={{ display: "flex" }}>
+            <Box sx={{}}>
                 <Typography variant="paragraph" component="p" marginY={3}>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
                     voluptates rem quos delectus debitis earum modi, ipsum veritatis.
